@@ -15,27 +15,27 @@ const Navbar = () => {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
           <li className="nav-item pt-2">
-            <a className="nav-link" href="Home">
+            <a className="nav-link" href="/game-website/">
               Home
             </a>
           </li>
           <li className="nav-item pt-2">
-            <a className="nav-link" href="Browse">
+            <a className="nav-link" href="/game-website/Browse">
               Browse
             </a>
           </li>
           <li className="nav-item pt-2">
-            <a className="nav-link" href="Details">
+            <a className="nav-link" href="/game-website/Details">
               Details
             </a>
           </li>
           <li className="nav-item pt-2">
-            <a className="nav-link" href="Contact">
+            <a className="nav-link" href="/game-website/Contact">
             Contact
             </a>
           </li>
           <li className="nav-item text_profile">
-            <a className="nav-link nav-linkMo" href="Profile">
+            <a className="nav-link nav-linkMo" href="/game-website/Profile">
             <button className="btn rounded-5 btn_profile">
                 profile
               <img src={profile} alt="profile" className="rounded-5 ms-2" />

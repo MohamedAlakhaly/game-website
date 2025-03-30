@@ -23,7 +23,7 @@ import {createBrowserRouter,RouterProvider,} from "react-router-dom";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/game-website/",
     element:
      <>
       <Navbar/>
@@ -34,20 +34,9 @@ const router = createBrowserRouter([
     </>,
   },
 
-  {
-    path: "/Home",
-    element: 
-    <>
-      <Navbar/>
-      <Home_1/>
-      <Home_2/>
-      <Home_3/>
-      <Footer/>
-    </>,
-  },
 
   {
-    path: "/Browse",
+    path: "/game-website/Browse",
     element: 
     <>
       <Navbar/>
@@ -59,7 +48,7 @@ const router = createBrowserRouter([
   },
 
   {
-    path: "/Details",
+    path: "/game-website/Details",
     element: 
     <>
       <Navbar/>
@@ -70,7 +59,7 @@ const router = createBrowserRouter([
     </>,
   },
     {
-    path: "/Contact",
+    path: "/game-website/Contact",
     element: 
     <>
       <Navbar/>
@@ -81,7 +70,7 @@ const router = createBrowserRouter([
   },
 
   {
-    path: "/Profile",
+    path: "/game-website/Profile",
     element: 
     <>
       <Navbar/>
